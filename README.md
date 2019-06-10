@@ -33,4 +33,4 @@ The "data" field contains these items:
 - **time_period**: The period that the figures is in. The period with be shown changing in the final video.
 - **time_period_data**: The figures presented as a list. Each item in the list is the figure of a beginning category, correspondingly
 
-***The program uses an algorithm to produce additional data in-between the given data to create a smooth animation (for instance: [1,5] -> [1,2,3,4,5]), so make sure that your data has a start point and an end point***
+***The program uses an interpolation algorithm to produce additional data in-between the given data to create a smooth animation (for instance: [1,5] -> [1,2,3,4,5]), so make sure that your data has a start point and an end point***
