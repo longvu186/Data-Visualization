@@ -16,7 +16,7 @@ All the program’s files must be put in a same folder (or you can use file path
 <p>JSON works under a simple format: keys (for naming) and values (for inputs) (“key”: value)<br>
 Each key has a corresponding value. The keys must be put inside quotation marks.<br>
 The value can be either numbers or strings (strings must be put inside quotation marks).<br>
-{} represents an object and [] represents a list. Every item in a list or an object must end with a comma (except the last item).<br>
+{ } represents an object and [ ] represents a list. Every item in a list or an object must end with a comma (except the last item).<br>
 Spaces (includes blank lines) are optional and are only for the sake of readability (the machine ignores the spaces).</p>
 </blockquote>
 <p><strong><em>ATTENTION: DO NOT DELETE OR ADD ANY FIELD OR KEY, WHICH MAY CAUSE MALFUNCTION. CHANGE THE CONTENT OF THE FILE AT YOUR OWN RISK.</em></strong></p>
@@ -34,6 +34,6 @@ The “data” field contains these items:</li>
 <li><strong>time_period</strong>: The period that the figures is in. The period with be shown changing in the final video.</li>
 <li><strong>time_period_data</strong>: The figures presented as a list. Each item in the list is the figure of a beginning category, correspondingly</li>
 </ul>
-<p><strong><em>The program uses an algorithm to produce additional data in-between the given data to create a smooth animation (for instance: [1,5] -&gt; [1,2,3,4,5]), so make sure that your data has a start point and an end point</em></strong></p>
+<p><strong><em>The program uses interpolation algorithm to produce additional data in-between the given data to create a smooth animation (for instance: [1,5] -&gt; [1,2,3,4,5]), so make sure that your data has a start point and an end point</em></strong></p>
 
 </body></html>
