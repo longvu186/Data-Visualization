@@ -1,0 +1,11 @@
+{
+  "title": "MCU movies box office growth",
+  "labels": ["Avengers: Infinity War", "The Avengers", "Avengers: Age of Ultron", "Black Panther", "Iron Man 3", "Captain America: Civil War", "Guardians of the Galaxy", "Spider-man: Homecoming", "Guardians of the Galaxy Vol.2", "Thor: Ragnarok"],
+  "colors": ["#D33B26", "#3B99C3", "#16466E", "#11110A", "#DBAD7B", "#8F9EB2", "#643A94", "#245689", "#8A7D91", "#519F3A"],
+  "time_text_color": "black",
+  "value_format": "{}",
+  "transparent_background": "false",
+  "floating_point": 0,
+  "data_interpolation": 10,
+  "fps": 30
+}
